@@ -1,4 +1,6 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Add padding to containers */
 .container2{
@@ -42,7 +44,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
   text-align: center;
 }
 
-.btn btn-primary btn-block :hover {
+.btn-primary  :hover {
   opacity:1;
 }
 

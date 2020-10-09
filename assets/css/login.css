@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box
+  }
+  
+  /* Add padding to containers */
+  form {
+      text-align: center;
+  }
+ 
+  /* Full-width input fields */
+   input[type=password],input[type=email],input[type=submit] {
+    width: 25%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+   input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  
+  /* Set a style for the submit/register button */
+  .btn-primary {
+    background-color: #020057;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  .btn-primary  :hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
